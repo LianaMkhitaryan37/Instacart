@@ -1,0 +1,49 @@
+.padB{
+    padding-bottom: 25px !important;  
+}
+.marginB{
+    margin-bottom: 25px !important;
+}
+body{
+    overflow-x:hidden
+}
+.wrap{
+    height: inherit;
+    min-height: 250px;
+    max-height:100%;
+}
+.RemoveStyle,.RemoveStyle div {
+    margin: unset !important;
+    padding-bottom: unset !important;
+    text-align: left !important;
+}
+
+.right{
+    float: right !important;
+}
+.loader:empty {
+    position: absolute;
+    top: calc(50% - 4em);
+    left: calc(50% - 4em);
+    width: 6em;
+    height: 6em;
+    border-left: 0.2em solid #927272;
+    border-radius: 50%;
+    animation: load8 1.1s infinite linear;
+}
+
+@keyframes load8 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.foot{
+    padding: 30px 0px;
+}
+.foot button{
+    display: block;   
+    width: 100%;
+}

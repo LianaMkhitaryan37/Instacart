@@ -1,0 +1,9 @@
+.about {
+    text-align: left;
+    width:80vw;
+    margin: 0px auto;
+}
+.left{
+    float: right;
+    margin: 60px;
+}

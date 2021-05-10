@@ -1,5 +1,5 @@
 class Courier < ApplicationRecord
-    validates :image, presence: true, format: { with: /http(s?):\/\/.*\.(jpeg|jpg|gif|png)/ix, message: "must be a URL for GIF, JPG or PNG image."}
+    validates :image, presence: true
 
     validates :type_name,
     :inclusion  => { :in => [ 'Free', 'Regular', 'Premium'],

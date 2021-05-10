@@ -38,7 +38,7 @@ const ImgMediaCard=(props)=> {
                     alt="Contemplative Reptile"
                     className={classes.media}
                     height="140"
-                    image={props.data.logo}
+                    image={"images/"+props.data.logo}
                     title="Contemplative Reptile"
                 />
                 <CardContent className='RemoveStyle'>

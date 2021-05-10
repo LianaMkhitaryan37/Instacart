@@ -3,6 +3,8 @@
 Configure project:
 
 * Ruby version -  2.5.1
+ * rbenv local 2.5.1 
+ * eval "$(rbenv init -)"
 
 * gem install bundler
 

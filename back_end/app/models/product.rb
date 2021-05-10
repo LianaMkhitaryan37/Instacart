@@ -5,5 +5,5 @@ class Product < ApplicationRecord
     validates :price, presence: true,numericality: {greater_than: 0}
     validates :store_id, presence: true
     validates :description, presence: true, length: {maximum: 1000}
-    validates :imageUrl, presence: true, format: { with: /http(s?):\/\/.*\.(jpeg|jpg|gif|png)/ix, message: "must be a URL for GIF, JPG or PNG image."}
+    validates :imageUrl, presence: true
 end

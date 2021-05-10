@@ -39,7 +39,7 @@ const ImgMediaCard=(props)=> {
                     alt={props.data.title}
                     className={classes.media}
                     height="140"
-                    image={props.data.imageUrl}
+                    image={"../"+props.data.imageUrl}
                     title={props.data.title}
                 />
                 <CardContent className='RemoveStyle'>
@@ -51,7 +51,7 @@ const ImgMediaCard=(props)=> {
                             component="img"
                             alt={props.data.title}
                             className={classes.fmedia}
-                            image={props.data.imageUrl}
+                            image={"../"+props.data.imageUrl}
                             title={props.data.title}
                         />
                         <CardContent>
